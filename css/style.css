@@ -1,12 +1,18 @@
 /* Just to test if the CSS file is connected */
-div {
+body{
+    background-color: #172330;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+/* div {
     border: 2px solid red;
     width: 30%;
     height: 150px;
     margin: 0 auto;
     margin-top: 10px;
     text-align: center;
-}
+} */
 
 /* @dirkduploy's CSS code */
 
@@ -22,6 +28,58 @@ div {
 
 /* @Ryan-ED's CSS code */
 
+#desc {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
 
+.light-bg {
+    /* background-color: #??????; */
+    /* Need to find the bg colour for this section */
+}
+
+.cols {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image {
+    height: 100px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.description {
+    margin-top: 40px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.description ul {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 45px;
+    color: #AAAEBD;
+}
+
+.description li {
+    margin: 20px;
+    list-style: none;
+}
+
+.description li::before {
+    content:"• ";
+    color: #5bc399;
+}
+
+@media screen and (max-width: 768px) {
+    .cols {
+        flex-direction: column;
+    }
+}
 
 /* ========================================== */
