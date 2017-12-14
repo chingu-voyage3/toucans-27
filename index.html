@@ -39,16 +39,20 @@
     </div> -->
 
     <div id="desc">
-        <!-- @Ryan-ED's code will go here. Description Section -->
 
+        <!-- This is the beginning of the entire description section - Making a bootstrap grid comprising or a row with 3 columns -->
         <div class="row">
 
+            <!-- col-sm-12 makes the three sections stack up into one section on smaller screens -->
             <div class="col-md-4 col-sm-12">
-                <div class="light-bg">
+
+                <!-- This div holds the icon and header text for each column -->
+                <div class="icon-header">
                     <img class="image" src="images\atomist-create-icon.png" alt="">
                     <h3>CREATE</h3>
                 </div>
 
+                <!-- This section contains the short description and the ul of features -->
                 <div class="description">
                     <p>Starting a new project should be a joy, not a drag. Make project creation one of your super powers.</p>
                     <ul>
@@ -60,8 +64,11 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- The same structure continues for all of the columns -->
+
             <div class="col-md-4 col-sm-12">
-                <div class="light-bg">
+                <div class="icon-header">
                     <img class="image" src="images\atomist-ship-icon.png" alt="">
                     <h3>SHIP</h3>
                 </div>
@@ -78,7 +85,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-12">
-                <div class="light-bg">
+                <div class="icon-header">
                     <img class="image" src="images\atomist-improve-icon.png" alt="">
                     <h3>IMPROVE</h3>
                 </div>
@@ -94,6 +101,8 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- The button is part of the grid but its a new column that spans across the screen -->
             <div class="col-md-12">
                 <button class="btn btn-success btn-lg">GET STARTED</button>
             </div>

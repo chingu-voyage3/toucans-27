@@ -35,22 +35,20 @@ body {
 
 /* @Ryan-ED's CSS code */
 
+/* Just adding some margins to the sides and the top so that its not stuck to the edges. Can be removed if needed */
 #desc {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 40px;
 }
 
-.light-bg {
-    /* background-color: #1B2937; */
-}
-
+/* Self explanitory. Sizing the images and atting some space at the bottom */
 .image {
-    height: 100px;
-    max-width: 100%;
+    height: 90px;
     margin-bottom: 15px;
 }
 
+/* More margins for space and positioning */
 .description {
     margin-top: 40px;
     margin-bottom: 80px;
@@ -60,6 +58,7 @@ body {
     font-size: 20px;
 }
 
+/* The lists are the only parts of the page with text not aligned center */
 .description ul {
     text-align: left;
     font-size: 16px;
@@ -67,16 +66,20 @@ body {
     color: #AAAEBD;
 }
 
+/* Added some space around each list item. Also tried a technique to style the bullet points.
+By removing the standard bullets and manually adding green ones in.*/
 .description li {
     margin: 20px;
     list-style: none;
 }
 
+/* Not the best method but it works */
 .description li:before {
     content: "• ";
     color: #5bc399;
 }
 
+/* Added custom styling to the bootstrap button to more closely match the original */
 .btn {
     background-color: #5BC399;
     padding: 18px;
