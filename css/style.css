@@ -1,10 +1,12 @@
 /* Just to test if the CSS file is connected */
-body{
+
+body {
     background-color: #172330;
     font-family: "Lato", sans-serif;
     color: white;
     text-align: center;
 }
+
 
 /* div {
     border: 2px solid red;
@@ -15,23 +17,27 @@ body{
     text-align: center;
 } */
 
+
 /* @dirkduploy's CSS code */
+
 
 /*@dirkduplooy Edit to see if it works-again*/
 
+
 /* ========================================== */
+
 
 /* @ZugZwang's CSS code */
 
 
-
 /* ========================================== */
+
 
 /* @Ryan-ED's CSS code */
 
 #desc {
     margin-left: 10px;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-top: 40px;
 }
 
@@ -67,7 +73,7 @@ body{
 }
 
 .description li:before {
-    content:"• ";
+    content: "• ";
     color: #5bc399;
 }
 
@@ -79,8 +85,8 @@ body{
     letter-spacing: 2px;
 }
 
-@media screen and (max-width: 768px) {
+/* For responsive design (devices with screens smaller than 768 pixels) */
+@media screen and (max-width: 768px) {}
 
-}
 
 /* ========================================== */
