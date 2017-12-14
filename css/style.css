@@ -5,6 +5,8 @@ body {
     font-family: "Lato", sans-serif;
     color: white;
     text-align: center;
+    width: 95%;
+    margin: auto;
 }
 
 
@@ -35,17 +37,20 @@ body {
 
 /* @Ryan-ED's CSS code */
 
-/* Just adding some margins to the sides and the top so that its not stuck to the edges. Can be removed if needed */
+/* Just adding some margin so that its not stuck to the top. Can be removed if needed */
 #desc {
-    margin-left: 10px;
-    margin-right: 10px;
     margin-top: 40px;
 }
 
-/* Self explanitory. Sizing the images and atting some space at the bottom */
+/* Self explanatory. Sizing the images and atting some space at the bottom */
 .image {
     height: 90px;
     margin-bottom: 15px;
+}
+
+.icon-header h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 /* More margins for space and positioning */
@@ -55,7 +60,7 @@ body {
 }
 
 .description p {
-    font-size: 20px;
+    font-size: 19.7px;
 }
 
 /* The lists are the only parts of the page with text not aligned center */
@@ -63,20 +68,18 @@ body {
     text-align: left;
     font-size: 16px;
     margin-top: 45px;
-    color: #AAAEBD;
+    color: #5bc399;
 }
 
 /* Added some space around each list item. Also tried a technique to style the bullet points.
-By removing the standard bullets and manually adding green ones in.*/
+Changed the colour to the green that matches the original and then wrapped all the text in span tags.*/
 .description li {
     margin: 20px;
-    list-style: none;
 }
 
-/* Not the best method but it works */
-.description li:before {
-    content: "• ";
-    color: #5bc399;
+/* Then I changes only the span colour back to the light grey shade */
+.description span {
+    color: #AAAEBD;
 }
 
 /* Added custom styling to the bootstrap button to more closely match the original */
@@ -89,7 +92,13 @@ By removing the standard bullets and manually adding green ones in.*/
 }
 
 /* For responsive design (devices with screens smaller than 768 pixels) */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    /* Button moves to the left on smaller devices */
+    .btn {
+        float: left;
+    }
+}
 
 
 /* ========================================== */
