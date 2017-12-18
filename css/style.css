@@ -20,10 +20,16 @@ body {
 } */
 
 
-/* @dirkduploy's CSS code */
+/* @dirkduplooy's CSS code */
 
+.title_section h1 {
+    text-align: center;
+    font-weight: bold;
+}
 
-/*@dirkduplooy Edit to see if it works-again*/
+.title_section p {
+    text-align: center;
+}
 
 
 /* ========================================== */
@@ -37,13 +43,17 @@ body {
 
 /* @Ryan-ED's CSS code */
 
+
 /* Just adding some margins so that its not stuck to the edges. Can be removed if needed */
+
 #desc {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
+
 /* Self explanatory. Sizing the images and atting some space at the bottom */
+
 .image {
     height: 90px;
     margin-bottom: 15px;
@@ -54,7 +64,9 @@ body {
     letter-spacing: 1px;
 }
 
+
 /* More margins for space and positioning */
+
 .description {
     margin-top: 40px;
     margin-bottom: 80px;
@@ -64,7 +76,9 @@ body {
     font-size: 19.7px;
 }
 
+
 /* The lists are the only parts of the page with text not aligned center */
+
 .description ul {
     text-align: left;
     font-size: 16px;
@@ -72,18 +86,24 @@ body {
     color: #5bc399;
 }
 
+
 /* Added some space around each list item. Also tried a technique to style the bullet points.
 Changed the colour to the green that matches the original and then wrapped all the text in span tags.*/
+
 .description li {
     margin: 20px;
 }
 
+
 /* Then I changes only the span colour back to the light grey shade */
+
 .description span {
     color: #AAAEBD;
 }
 
+
 /* Added custom styling to the bootstrap button to more closely match the original */
+
 .btn {
     background-color: #5BC399;
     padding: 18px;
@@ -92,9 +112,10 @@ Changed the colour to the green that matches the original and then wrapped all t
     letter-spacing: 2px;
 }
 
-/* For responsive design (devices with screens smaller than 768 pixels) */
-@media screen and (max-width: 768px) {
 
+/* For responsive design (devices with screens smaller than 768 pixels) */
+
+@media screen and (max-width: 768px) {
     /* Button moves to the left on smaller devices */
     .btn {
         float: left;
