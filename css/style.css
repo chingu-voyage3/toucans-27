@@ -22,18 +22,15 @@ body {
 
 /* @dirkduplooy's CSS code */
 
-.title_section h1 {
-    text-align: center;
-    font-weight: bold;
-    /* added padding but it does not seem to work 
-    could it be the auto margin influencing it?*/
+#title_section h1 {
     padding-top: 80px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    text-align: center;
+    font-size: 50px;
 }
 
-.title_section p {
+#title_section p {
+    padding-top: 10px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
