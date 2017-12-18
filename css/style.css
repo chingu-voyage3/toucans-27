@@ -25,6 +25,12 @@ body {
 .title_section h1 {
     text-align: center;
     font-weight: bold;
+    /* added padding but it does not seem to work 
+    could it be the auto margin influencing it?*/
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 .title_section p {
