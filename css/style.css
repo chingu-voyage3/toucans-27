@@ -35,9 +35,14 @@ body {
 }
 
 #title_section {
-    background-image: url("/images/background-title.PNG");
-     background-repeat: no-repeat;
-     padding: 15px;
+    background-image: url("../images/background-title.PNG");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    top: 0;
+    left: 0;
+    
  }
 
 
