@@ -24,7 +24,7 @@
     background-color: transparent;
     color: #5bc399;
     border: 2px solid #6ae2b0;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 5px;
 }
 
@@ -53,6 +53,11 @@
 
   #navbar1 ul li a:hover {
     color: #5bc399;
+    text-align:center;
+  }
+
+  #navbar1 ul li a:visited {
+    color: white;
     text-align:center;
   }
 
